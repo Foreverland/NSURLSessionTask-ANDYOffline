@@ -1,9 +1,8 @@
 @import XCTest;
 
-#import "OHHTTPStubs.h"
-#import "OHHTTPStubsResponse+JSON.h"
 #import "AFHTTPSessionManager.h"
 #import "AFHTTPSessionManager+AFOfflineRequest.h"
+#import "AFURLResponseSerialization.h"
 
 @interface Tests : XCTestCase
 
@@ -11,25 +10,32 @@
 
 @implementation Tests
 
-- (void)setUp
+- (void)testPOST
 {
-    [super setUp];
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Networking expectations"];
 
-    [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
-        return YES;
-    } withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
-        return [[OHHTTPStubsResponse responseWithJSONObject:@{@"name" : @"Hello World"}
-                                                 statusCode:200
-                                                    headers:@{@"Content-Type":@"text/json"}]
-                responseTime:15.0f];
-    }];
-}
+    NSURL *url = [NSURL URLWithString:@"http://requestb.in"];
+    NSString *path = @"/1ktjuv71";
 
-- (void)tearDown
-{
-    [OHHTTPStubs removeAllStubs];
+    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithBaseURL:url];
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
 
-    [super tearDown];
+    [manager POST:path
+       parameters:@{@"hellooo" : @"heheheh"}
+          success:^(NSURLSessionDataTask *task, id JSON) {
+              NSString *JSONString = [[NSString alloc] initWithData:JSON encoding:NSUTF8StringEncoding];
+
+              NSLog(@"response: %@", JSONString);
+              XCTAssertNotNil(JSON);
+              [expectation fulfill];
+
+          } failure:^(NSURLSessionDataTask *task, NSError *error) {
+              NSLog(@"failure: %@", error);
+              XCTAssertNotNil(error);
+              [expectation fulfill];
+          }];
+
+    [self waitForExpectationsWithTimeout:60.0f handler:nil];
 }
 
 @end
