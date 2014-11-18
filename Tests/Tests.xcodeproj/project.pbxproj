@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		145E57921A1BF09E0098B185 /* AFHTTPSessionManager+AFOfflineRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 145E57911A1BF09E0098B185 /* AFHTTPSessionManager+AFOfflineRequest.m */; };
+		145E57941A1BF1FE0098B185 /* AFHTTPSessionManager-AFOffline.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 145E57931A1BF1FE0098B185 /* AFHTTPSessionManager-AFOffline.podspec */; };
 		14B564731A06D87B00342CDA /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 14B564721A06D87B00342CDA /* .travis.yml */; };
 		14C4182E1A01919C00636FD6 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C4182D1A01919C00636FD6 /* Tests.m */; };
 		14C4183C1A019A1500636FD6 /* CONTRIBUTING.md in Sources */ = {isa = PBXBuildFile; fileRef = 14C418381A019A1500636FD6 /* CONTRIBUTING.md */; };
 		14C4183D1A019A1500636FD6 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 14C418391A019A1500636FD6 /* LICENSE.md */; };
-		14C4183E1A019A1500636FD6 /* PODNAME.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14C4183A1A019A1500636FD6 /* PODNAME.podspec */; };
 		14C4183F1A019A1500636FD6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 14C4183B1A019A1500636FD6 /* README.md */; };
 		566C5F7EA443804C8CEFDD45 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD4D5BAB1B9E2B9EEE96ECA /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -20,13 +20,13 @@
 /* Begin PBXFileReference section */
 		145E57901A1BF09E0098B185 /* AFHTTPSessionManager+AFOfflineRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+AFOfflineRequest.h"; sourceTree = "<group>"; };
 		145E57911A1BF09E0098B185 /* AFHTTPSessionManager+AFOfflineRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+AFOfflineRequest.m"; sourceTree = "<group>"; };
+		145E57931A1BF1FE0098B185 /* AFHTTPSessionManager-AFOffline.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "AFHTTPSessionManager-AFOffline.podspec"; path = "../AFHTTPSessionManager-AFOffline.podspec"; sourceTree = "<group>"; };
 		14B564721A06D87B00342CDA /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		14C418261A01919C00636FD6 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C4182C1A01919C00636FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14C4182D1A01919C00636FD6 /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		14C418381A019A1500636FD6 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		14C418391A019A1500636FD6 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
-		14C4183A1A019A1500636FD6 /* PODNAME.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PODNAME.podspec; path = ../PODNAME.podspec; sourceTree = "<group>"; };
 		14C4183B1A019A1500636FD6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2AD4D5BAB1B9E2B9EEE96ECA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB054C719F12DFB8DD36894 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,9 +96,9 @@
 			isa = PBXGroup;
 			children = (
 				14B564721A06D87B00342CDA /* .travis.yml */,
+				145E57931A1BF1FE0098B185 /* AFHTTPSessionManager-AFOffline.podspec */,
 				14C418381A019A1500636FD6 /* CONTRIBUTING.md */,
 				14C418391A019A1500636FD6 /* LICENSE.md */,
-				14C4183A1A019A1500636FD6 /* PODNAME.podspec */,
 				14C4183B1A019A1500636FD6 /* README.md */,
 			);
 			name = Metadata;
@@ -179,9 +179,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145E57941A1BF1FE0098B185 /* AFHTTPSessionManager-AFOffline.podspec in Resources */,
 				14B564731A06D87B00342CDA /* .travis.yml in Resources */,
 				14C4183D1A019A1500636FD6 /* LICENSE.md in Resources */,
-				14C4183E1A019A1500636FD6 /* PODNAME.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
