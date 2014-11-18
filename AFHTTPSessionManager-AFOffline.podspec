@@ -1,17 +1,17 @@
 Pod::Spec.new do |s|
-s.name             = "AFHTTPSessionManager-AFOffline"
+s.name             = "AFHTTPSessionManager-AFOfflineRequest"
 s.version          = "0.1"
-s.summary          = "A short description of AFHTTPSessionManager-AFOffline."
+s.summary          = "A short description of AFHTTPSessionManager-AFOfflineRequest."
 s.description      = <<-DESC
-An optional longer description of AFHTTPSessionManager-AFOffline
+An optional longer description of AFHTTPSessionManager-AFOfflineRequest
 
 * Markdown format.
 * Don't worry about the indent, we strip it!
 DESC
-s.homepage         = "https://github.com/NSElvis/AFHTTPSessionManager-AFOffline"
+s.homepage         = "https://github.com/NSElvis/AFHTTPSessionManager-AFOfflineRequest"
 s.license          = 'MIT'
 s.author           = { "Elvis Nuñez" => "hello@nselvis.com" }
-s.source           = { :git => "https://github.com/NSElvis/AFHTTPSessionManager-AFOffline.git", :tag => s.version.to_s }
+s.source           = { :git => "https://github.com/NSElvis/AFHTTPSessionManager-AFOfflineRequest.git", :tag => s.version.to_s }
 s.social_media_url = 'https://twitter.com/NSElvis'
 
 s.platform     = :ios, '7.0'
