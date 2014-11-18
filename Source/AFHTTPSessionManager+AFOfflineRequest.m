@@ -2,4 +2,9 @@
 
 @implementation AFHTTPSessionManager (AFOfflineRequest)
 
+- (NSArray *)offlineTasks
+{
+    return @[];
+}
+
 @end

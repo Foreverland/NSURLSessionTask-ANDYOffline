@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142124AD1A1C133600D3C200 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142124AC1A1C133600D3C200 /* MobileCoreServices.framework */; };
+		142124AF1A1C133B00D3C200 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142124AE1A1C133B00D3C200 /* CFNetwork.framework */; };
+		142124B11A1C136800D3C200 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142124B01A1C136800D3C200 /* SystemConfiguration.framework */; };
+		14354DF01A1C11650037E129 /* NSURLSessionTask+AFOffline.m in Sources */ = {isa = PBXBuildFile; fileRef = 14354DEF1A1C11650037E129 /* NSURLSessionTask+AFOffline.m */; };
 		145E57921A1BF09E0098B185 /* AFHTTPSessionManager+AFOfflineRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 145E57911A1BF09E0098B185 /* AFHTTPSessionManager+AFOfflineRequest.m */; };
 		145E57941A1BF1FE0098B185 /* AFHTTPSessionManager-AFOffline.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 145E57931A1BF1FE0098B185 /* AFHTTPSessionManager-AFOffline.podspec */; };
 		14B564731A06D87B00342CDA /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 14B564721A06D87B00342CDA /* .travis.yml */; };
@@ -18,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		142124AC1A1C133600D3C200 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		142124AE1A1C133B00D3C200 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		142124B01A1C136800D3C200 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		14354DEE1A1C11650037E129 /* NSURLSessionTask+AFOffline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionTask+AFOffline.h"; sourceTree = "<group>"; };
+		14354DEF1A1C11650037E129 /* NSURLSessionTask+AFOffline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionTask+AFOffline.m"; sourceTree = "<group>"; };
 		145E57901A1BF09E0098B185 /* AFHTTPSessionManager+AFOfflineRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+AFOfflineRequest.h"; sourceTree = "<group>"; };
 		145E57911A1BF09E0098B185 /* AFHTTPSessionManager+AFOfflineRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+AFOfflineRequest.m"; sourceTree = "<group>"; };
 		145E57931A1BF1FE0098B185 /* AFHTTPSessionManager-AFOffline.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "AFHTTPSessionManager-AFOffline.podspec"; path = "../AFHTTPSessionManager-AFOffline.podspec"; sourceTree = "<group>"; };
@@ -38,6 +47,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142124B11A1C136800D3C200 /* SystemConfiguration.framework in Frameworks */,
+				142124AF1A1C133B00D3C200 /* CFNetwork.framework in Frameworks */,
+				142124AD1A1C133600D3C200 /* MobileCoreServices.framework in Frameworks */,
 				566C5F7EA443804C8CEFDD45 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +99,8 @@
 			children = (
 				145E57901A1BF09E0098B185 /* AFHTTPSessionManager+AFOfflineRequest.h */,
 				145E57911A1BF09E0098B185 /* AFHTTPSessionManager+AFOfflineRequest.m */,
+				14354DEE1A1C11650037E129 /* NSURLSessionTask+AFOffline.h */,
+				14354DEF1A1C11650037E129 /* NSURLSessionTask+AFOffline.m */,
 			);
 			name = Source;
 			path = ../Source;
@@ -107,6 +121,9 @@
 		4B8A9EF589E56E91142CF726 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				142124B01A1C136800D3C200 /* SystemConfiguration.framework */,
+				142124AE1A1C133B00D3C200 /* CFNetwork.framework */,
+				142124AC1A1C133600D3C200 /* MobileCoreServices.framework */,
 				2AD4D5BAB1B9E2B9EEE96ECA /* libPods.a */,
 			);
 			name = Frameworks;
@@ -225,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14354DF01A1C11650037E129 /* NSURLSessionTask+AFOffline.m in Sources */,
 				14C4183F1A019A1500636FD6 /* README.md in Sources */,
 				14C4183C1A019A1500636FD6 /* CONTRIBUTING.md in Sources */,
 				145E57921A1BF09E0098B185 /* AFHTTPSessionManager+AFOfflineRequest.m in Sources */,

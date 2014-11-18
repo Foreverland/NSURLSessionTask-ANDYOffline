@@ -2,4 +2,6 @@
 
 @interface AFHTTPSessionManager (AFOfflineRequest)
 
+- (NSArray *)offlineTasks;
+
 @end
