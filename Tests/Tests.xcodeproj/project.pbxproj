@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140DF5361A1D985600637B4D /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = 14C418381A019A1500636FD6 /* CONTRIBUTING.md */; };
+		140DF5371A1D985900637B4D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 14C4183B1A019A1500636FD6 /* README.md */; };
 		1416DE371A1D946000BB8E87 /* NSURLSessionTask-ANDYOffline.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1416DE361A1D946000BB8E87 /* NSURLSessionTask-ANDYOffline.podspec */; };
 		14354DF01A1C11650037E129 /* NSURLSessionTask+ANDYOffline.m in Sources */ = {isa = PBXBuildFile; fileRef = 14354DEF1A1C11650037E129 /* NSURLSessionTask+ANDYOffline.m */; };
 		14B564731A06D87B00342CDA /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 14B564721A06D87B00342CDA /* .travis.yml */; };
 		14C4182E1A01919C00636FD6 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C4182D1A01919C00636FD6 /* Tests.m */; };
-		14C4183C1A019A1500636FD6 /* CONTRIBUTING.md in Sources */ = {isa = PBXBuildFile; fileRef = 14C418381A019A1500636FD6 /* CONTRIBUTING.md */; };
 		14C4183D1A019A1500636FD6 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 14C418391A019A1500636FD6 /* LICENSE.md */; };
-		14C4183F1A019A1500636FD6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 14C4183B1A019A1500636FD6 /* README.md */; };
 		566C5F7EA443804C8CEFDD45 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD4D5BAB1B9E2B9EEE96ECA /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -185,6 +185,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140DF5371A1D985900637B4D /* README.md in Resources */,
+				140DF5361A1D985600637B4D /* CONTRIBUTING.md in Resources */,
 				14B564731A06D87B00342CDA /* .travis.yml in Resources */,
 				1416DE371A1D946000BB8E87 /* NSURLSessionTask-ANDYOffline.podspec in Resources */,
 				14C4183D1A019A1500636FD6 /* LICENSE.md in Resources */,
@@ -232,8 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				14354DF01A1C11650037E129 /* NSURLSessionTask+ANDYOffline.m in Sources */,
-				14C4183F1A019A1500636FD6 /* README.md in Sources */,
-				14C4183C1A019A1500636FD6 /* CONTRIBUTING.md in Sources */,
 				14C4182E1A01919C00636FD6 /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
