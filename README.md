@@ -6,9 +6,9 @@ Offline support for your session tasks. If the session has failed, timeout or if
 
 ### Missing
 
-- [ ] Test `isEqual` between a PUT and a POST request
-- [ ] Test `isEqual` between a PUT and a PUT request
-- [ ] Support DELETE requests
+- [ ] Test `isEqual` between a `PUT` and a `POST` request
+- [ ] Test `isEqual` between a `PUT` and a `PUT` request
+- [ ] Support `DELETE` requests
 - [ ] Support removing offline requests
 - [ ] Support secure/encrypted storing
 - [ ] Support multipart requests
