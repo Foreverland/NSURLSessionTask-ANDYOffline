@@ -1,9 +1,9 @@
-# AFHTTPSessionManager-AFOfflineRequest
+# NSURLSessionTask-ANDYOffline
 
-[![CI Status](http://img.shields.io/travis/NSElvis/AFHTTPSessionManager-AFOfflineRequest.svg?style=flat)](https://travis-ci.org/NSElvis/AFHTTPSessionManager-AFOfflineRequest)
-[![Version](https://img.shields.io/cocoapods/v/AFHTTPSessionManager-AFOfflineRequest.svg?style=flat)](http://cocoadocs.org/docsets/AFHTTPSessionManager-AFOfflineRequest)
-[![License](https://img.shields.io/cocoapods/l/AFHTTPSessionManager-AFOfflineRequest.svg?style=flat)](http://cocoadocs.org/docsets/AFHTTPSessionManager-AFOfflineRequest)
-[![Platform](https://img.shields.io/cocoapods/p/AFHTTPSessionManager-AFOfflineRequest.svg?style=flat)](http://cocoadocs.org/docsets/AFHTTPSessionManager-AFOfflineRequest)
+[![CI Status](http://img.shields.io/travis/NSElvis/NSURLSessionTask-ANDYOffline.svg?style=flat)](https://travis-ci.org/NSElvis/NSURLSessionTask-ANDYOffline)
+[![Version](https://img.shields.io/cocoapods/v/NSURLSessionTask-ANDYOffline.svg?style=flat)](http://cocoadocs.org/docsets/NSURLSessionTask-ANDYOffline)
+[![License](https://img.shields.io/cocoapods/l/NSURLSessionTask-ANDYOffline.svg?style=flat)](http://cocoadocs.org/docsets/NSURLSessionTask-ANDYOffline)
+[![Platform](https://img.shields.io/cocoapods/p/NSURLSessionTask-ANDYOffline.svg?style=flat)](http://cocoadocs.org/docsets/NSURLSessionTask-ANDYOffline)
 
 ## Usage
 
@@ -11,10 +11,10 @@ To run the example project, clone the repo, and open the `.xcodeproj` from the D
 
 ## Installation
 
-**AFHTTPSessionManager-AFOfflineRequest** is available through [CocoaPods](http://cocoapods.org). To install
+**NSURLSessionTask-ANDYOffline** is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-`pod 'AFHTTPSessionManager-AFOfflineRequest'`
+`pod 'NSURLSessionTask-ANDYOffline'`
 
 ## Author
 
@@ -22,4 +22,4 @@ Elvis Nuñez, hello@nselvis.com
 
 ## License
 
-**AFHTTPSessionManager-AFOfflineRequest** is available under the MIT license. See the LICENSE file for more info.
+**NSURLSessionTask-ANDYOffline** is available under the MIT license. See the LICENSE file for more info.
