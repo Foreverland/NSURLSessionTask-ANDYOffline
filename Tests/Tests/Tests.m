@@ -46,7 +46,7 @@
         [task saveWithParams:params];
 
         NSURLSessionTask *offlineTask = [[NSURLSessionTask offlineTasks] lastObject];
-        XCTAssertEqualObjects(task.originalRequest.URL, offlineTask.andy_originalRequest.URL);
+        XCTAssertEqualObjects(offlineTask, task);
 
         [expectation fulfill];
     }];

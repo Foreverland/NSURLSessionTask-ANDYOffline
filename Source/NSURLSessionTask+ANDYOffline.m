@@ -100,4 +100,13 @@
     return requests;
 }
 
+- (BOOL)isEqual:(NSURLSessionTask *)object
+{
+    if ([self.andy_originalRequest.URL isEqual:object.originalRequest.URL]) {
+        return YES;
+    }
+
+    return NO;
+}
+
 @end
