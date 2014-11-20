@@ -46,9 +46,8 @@
 
         [task saveWithParams:params];
 
-        NSArray *offlineTasks = [manager offlineTasks];
-        BOOL isThere = ([offlineTasks containsObject:task]);
-        XCTAssertTrue(isThere);
+        NSURLSessionTask *offlineTask = [[NSURLSessionTask offlineTasks] lastObject];
+        XCTAssertEqualObjects(task.originalRequest.URL, offlineTask.af_originalRequest.URL);
 
         [expectation fulfill];
     }];
