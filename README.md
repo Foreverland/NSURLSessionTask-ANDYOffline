@@ -16,17 +16,6 @@ Offline support for your session tasks. If the session has failed, timeout or if
 - [ ] Support diffing/mapping requests (if a request was created, updated and deleted it shouldn't do anything)
 - [ ] Provide a block to update things when an offline request succeeds
 
-## Usage
-
-To run the example project, clone the repo, and open the `.xcodeproj` from the Demo directory.
-
-## Installation
-
-**NSURLSessionTask-ANDYOffline** is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-`pod 'NSURLSessionTask-ANDYOffline'`
-
 ## Author
 
 Elvis Nuñez, hello@nselvis.com
