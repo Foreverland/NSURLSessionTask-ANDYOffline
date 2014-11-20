@@ -29,7 +29,13 @@ Saving failed requests:
 Retrieving offline requests:
 
 ```objc
-NSArray *offlineTasks = [NSURLSessionTask offlineTasks]
+NSArray *offlineTasks = [NSURLSessionTask offlineTasks];
+```
+
+Removing offline requests:
+
+```objc
+[task remove];
 ```
 
 ### Missing
