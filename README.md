@@ -38,6 +38,12 @@ Removing offline requests:
 [task remove];
 ```
 
+Replaying offline requests:
+
+```objc
+[manager replay];
+```
+
 ### Missing
 
 - [ ] Test `isEqual` between a `PUT` and a `POST` request
