@@ -102,11 +102,11 @@
 
 - (BOOL)isEqual:(NSURLSessionTask *)object
 {
-    if ([self.andy_originalRequest.URL isEqual:object.originalRequest.URL]) {
-        return YES;
-    }
+    BOOL URLIsEqual = ([self.andy_originalRequest.URL isEqual:object.originalRequest.URL]);
+    BOOL HTTPMethodIsEqual = ([self.andy_originalRequest.HTTPMethod isEqualToString:object.originalRequest.HTTPMethod]);
+    BOOL paramsAreEqual = ([self.andy_params isEqual:object.andy_params]);
 
-    return NO;
+    return (URLIsEqual && HTTPMethodIsEqual && paramsAreEqual);
 }
 
 @end
