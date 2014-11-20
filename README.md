@@ -4,6 +4,30 @@
 
 Offline support for HTTP requests (`POST`/`PUT`/`PATCH`/`DELETE`). If the request fails, timesout or if you're offline you can save the task on disk and reproduce it later.
 
+### How it works
+
+Saving failed requests:
+
+```objc
+[manager POST:path
+   parameters:params
+      success:^(NSURLSessionDataTask *task, id responseObject) {
+
+          // everything went well, be happy
+
+      } failure:^(NSURLSessionDataTask *task, NSError *error) {
+
+          [task saveWithParams:params];
+
+      }];
+```
+
+Retreiving offline requests:
+
+```objc
+NSArray *offlineTasks = [NSURLSessionTask offlineTasks]
+```
+
 ### Missing
 
 - [ ] Test `isEqual` between a `PUT` and a `POST` request
