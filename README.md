@@ -9,6 +9,10 @@ Offline support for HTTP requests (`POST`/`PUT`/`PATCH`/`DELETE`). If the reques
 Saving failed requests:
 
 ```objc
+[task saveWithParams:params];
+```
+
+```objc
 [manager POST:path
    parameters:params
       success:^(NSURLSessionDataTask *task, id responseObject) {
@@ -22,7 +26,7 @@ Saving failed requests:
       }];
 ```
 
-Retreiving offline requests:
+Retrieving offline requests:
 
 ```objc
 NSArray *offlineTasks = [NSURLSessionTask offlineTasks]
