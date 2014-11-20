@@ -3,8 +3,7 @@
 #import "OHHTTPStubs.h"
 #import "OHHTTPStubsResponse+JSON.h"
 #import "AFHTTPSessionManager.h"
-#import "AFHTTPSessionManager+AFOfflineRequest.h"
-#import "NSURLSessionTask+AFOffline.h"
+#import "NSURLSessionTask+ANDYOffline.h"
 
 @interface Tests : XCTestCase
 
@@ -47,7 +46,7 @@
         [task saveWithParams:params];
 
         NSURLSessionTask *offlineTask = [[NSURLSessionTask offlineTasks] lastObject];
-        XCTAssertEqualObjects(task.originalRequest.URL, offlineTask.af_originalRequest.URL);
+        XCTAssertEqualObjects(task.originalRequest.URL, offlineTask.andy_originalRequest.URL);
 
         [expectation fulfill];
     }];
