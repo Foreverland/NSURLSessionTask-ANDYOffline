@@ -2,7 +2,7 @@
 
 [![CI Status](http://img.shields.io/travis/NSElvis/NSURLSessionTask-ANDYOffline.svg?style=flat)](https://travis-ci.org/NSElvis/NSURLSessionTask-ANDYOffline)
 
-Offline support for HTTP requests (`POST`/`PUT`/`PATCH`/`DELETE`). If the session has failed, timeout or if you're offline you can save the task on disk and reproduce it later.
+Offline support for HTTP requests (`POST`/`PUT`/`PATCH`/`DELETE`). If the request fails, timesout or if you're offline you can save the task on disk and reproduce it later.
 
 ### Missing
 
