@@ -38,7 +38,7 @@ Removing offline requests:
 [task remove];
 ```
 
-Replaying offline requests:
+Replaying offline requests (needs a `NSURLSession` or a `AFHTTPSessionManager`):
 
 ```objc
 [manager replay];
