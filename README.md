@@ -62,4 +62,4 @@ Elvis Nuñez, hello@nselvis.com
 
 ## License
 
-**NSURLSessionTask-ANDYOffline** is available under the MIT license. See the LICENSE file for more info.
+**NSURLSessionTask-ANDYOffline** is available under the MIT license. See the [LICENSE](https://github.com/NSElvis/NSURLSessionTask-ANDYOffline/blob/master/LICENSE.md) file for more info.
