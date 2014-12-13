@@ -1,4 +1,4 @@
-# NSURLSessionTask-ANDYOffline [WIP]
+# [WIP] — NSURLSessionTask-ANDYOffline
 
 [![CI Status](http://img.shields.io/travis/NSElvis/NSURLSessionTask-ANDYOffline.svg?style=flat)](https://travis-ci.org/NSElvis/NSURLSessionTask-ANDYOffline)
 
