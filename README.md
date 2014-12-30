@@ -46,8 +46,6 @@ Replaying offline requests (needs a `NSURLSession` or a `AFHTTPSessionManager`):
 
 ### Missing
 
-- [ ] Test `isEqual` between a `PUT` and a `POST` request
-- [ ] Test `isEqual` between a `PUT` and a `PUT` request
 - [ ] Support `DELETE` requests
 - [ ] Support removing offline requests
 - [ ] Support secure/encrypted storing
