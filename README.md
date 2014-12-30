@@ -44,16 +44,6 @@ Replaying offline requests (needs a `NSURLSession` or a `AFHTTPSessionManager`):
 [manager replay];
 ```
 
-### Missing
-
-- [ ] Support `DELETE` requests
-- [ ] Support removing offline requests
-- [ ] Support secure/encrypted storing
-- [ ] Support multipart requests
-- [ ] Support posting/replaying offline requests
-- [ ] Support diffing/mapping requests (if a request was created, updated and deleted it shouldn't do anything)
-- [ ] Provide a block to update things when an offline request succeeds
-
 ## Author
 
 Elvis Nuñez, hello@nselvis.com
