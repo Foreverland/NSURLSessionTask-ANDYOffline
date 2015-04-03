@@ -1,6 +1,6 @@
 # [WIP] — NSURLSessionTask-ANDYOffline
 
-[![CI Status](http://img.shields.io/travis/NSElvis/NSURLSessionTask-ANDYOffline.svg?style=flat)](https://travis-ci.org/NSElvis/NSURLSessionTask-ANDYOffline)
+[![CI Status](http://img.shields.io/travis/NSElvis/NSURLSessionTask-ANDYOffline.svg?style=flat)](https://travis-ci.org/3lvis/NSURLSessionTask-ANDYOffline)
 
 Offline support for HTTP requests (`POST`/`PUT`/`PATCH`/`DELETE`). If the request fails, timesout or if you're offline you can save the task on disk and reproduce it later.
 
@@ -46,8 +46,8 @@ Replaying offline requests (needs a `NSURLSession` or a `AFHTTPSessionManager`):
 
 ## Author
 
-Elvis Nuñez, hello@nselvis.com
+Elvis Nuñez, [elvisnunez@me.com](mailto:elvisnunez@me.com)
 
 ## License
 
-**NSURLSessionTask-ANDYOffline** is available under the MIT license. See the [LICENSE](https://github.com/NSElvis/NSURLSessionTask-ANDYOffline/blob/master/LICENSE.md) file for more info.
+**NSURLSessionTask-ANDYOffline** is available under the MIT license. See the [LICENSE](https://github.com/3lvis/NSURLSessionTask-ANDYOffline/blob/master/LICENSE.md) file for more info.
